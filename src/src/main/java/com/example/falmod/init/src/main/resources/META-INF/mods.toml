@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="tacfal"
+version="1.0.0"
+displayName="FAL Rifle Mod"
+description="添加FAL突击步枪"
+authors="你的名字"
+
+[[dependencies.tacfal]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.tacfal]]
+    modId="tac"
+    mandatory=true
+    versionRange="[0.2.0,)"
+    ordering="AFTER"
+    side="BOTH"
