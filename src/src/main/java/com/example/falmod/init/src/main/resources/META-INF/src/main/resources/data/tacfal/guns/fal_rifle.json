@@ -1,0 +1,27 @@
+{
+  "general": {
+    "model": "tacfal:item/fal_rifle",
+    "texture": "tacfal:item/fal_rifle",
+    "weapon_type": "rifle",
+    "ammo": "tac:.308",
+    "damage": 11.0,
+    "recoil": 7.5,
+    "fire_mode": "auto",
+    "fire_rate": 750,
+    "mag_size": 20,
+    "reload_time": 2.5
+  },
+  "projectile": {
+    "damage": 11.0,
+    "size": 0.5,
+    "speed": 20.0,
+    "life": 30,
+    "gravity": true,
+    "armor_ignore": 0.0,
+    "headshot_multiplier": 1.5
+  },
+  "sounds": {
+    "fire": "tac:item.gun.fire",
+    "reload": "tac:item.gun.reload"
+  }
+}
