@@ -1,0 +1,6 @@
+{
+  "parent": "tac:item/gun",
+  "textures": {
+    "layer0": "tacfal:item/fal_rifle"
+  }
+}
